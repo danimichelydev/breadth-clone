@@ -1,0 +1,131 @@
+/* 1200 */
+@media (max-width: 1200px) {
+    header, .tools, .main-info, .footer-container  {
+        width: 850px;
+    }
+    .tools-boxes h3 {
+        font-size: 1rem;
+        margin: 20px auto;
+    }
+    .tools-boxes p {
+        padding: 20px 10px;
+    }
+    .main-info h2 {
+        font-size: 1.8rem;
+    }
+    .main-info h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 920px) {
+    header {
+        flex-direction: column;
+        margin: 20px auto;
+        width: 650px;  
+    }
+    header nav ul a {
+        margin-bottom: 15px;
+    }
+    .tools-container{
+        height: auto;
+    }
+    .tools {
+        width: 650px;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 30px;
+        margin: 40px auto;
+    }
+    .main-info {
+        width: 650px;
+        height: 550px;        
+    }
+    .main-info h2 {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .main-info h3 {
+        font-size: 0.9rem;
+    }
+    .footer-container {
+        width: 650px;
+    }
+    .footer-container {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 680px) {
+    header {
+        width: 380px;  
+    }
+    header .logo {
+        width: auto;
+    }
+
+    /* display menu */
+    header nav .menu i {
+        display: block;
+        color: #383838;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        top: 40px;
+        right: 35px;
+        z-index: 99;
+    }
+
+    /* display menu ul*/
+    header nav ul{
+        display: none;
+    }
+    header nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 30px;
+        right: 0;        
+        background-color: rgba(26, 125, 98, 0.9);
+        height: 100vh;
+        width: 75vw;
+    }
+    header nav ul a {
+        padding: 15px 10px;
+        font-size: 1.1rem;
+        display: block;
+        color: #FFF;
+        margin-left: 50px;
+    }
+    header nav ul a:hover {
+        background-color: #27AF70;
+    }
+    .tools {
+        width: 400px;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin: 70px;
+    }
+    .main-info {
+        width: 400px;
+        height: 600px;        
+    }
+    .main-info h2 {
+        font-size: 1.1rem;
+        letter-spacing: 0;
+    }
+    .main-info h3 {
+        text-align: center;
+        font-size: 1rem;
+        letter-spacing: 0;
+    }
+    .footer-container {
+        width: 350px;
+    }
+    .rights-reserved p {
+        text-align: center;
+    }
+
+}

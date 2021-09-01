@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s ease-in;
+    /* overflow-x:hidden;  */
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 1050px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+header .logo a {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1A7D62;
+}
+header nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+    height: 70px;
+}
+header nav ul{
+    display: flex;
+    height: 100%;
+    align-items: center; 
+}
+header nav ul a {
+    display: block;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #777;
+}
+header nav ul a:hover {
+    background-color: #1A7D62;
+    color: #FFF;
+}
+header nav .menu i {
+    display: none;
+}
+.green {
+    background-color: #1A7D62;
+    color: #FFF;
+}
+.green:hover {
+    background-color: #27AF70;
+}
+
+/* main */
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .main-banner{
+    background-color: #84d170;
+    background-image: url(/assets/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-attachment: local;
+    width: 100%;
+    height: 600px;
+}
+.tools-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #383838;
+}
+.tools {
+    width: 1050px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-top: 50px;
+}
+.tools-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tools-boxes .tools-image i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #D7D7D7;
+}
+.tools-boxes h3 {
+    color: #D7D7D7;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 40px auto;
+}
+.tools-boxes p {
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #888;
+    color: #888;
+}
+
+/* main-info */
+.main-info {
+    width: 1050px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-info h2 {
+    font-size: 2.2rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #555;
+}
+.main-info h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: 10px;
+    letter-spacing: -1px;
+    color: #888;
+}
+.main-info p {
+    font-size: 0.9rem;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 50px auto;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #888;
+}
+.main-info p .bold{
+    font-weight: 700;
+    color: #555;
+}
+.main-info p .link{
+    color: #555;
+    border-bottom: 1px solid #555;
+    cursor: pointer;
+}
+.main-info p .link:hover{
+    border-bottom: none;
+}
+.main-info button {
+    padding: 25px;
+    width: 240px;
+    background-color: #1A7D62;
+    color: #D7D7D7;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+/* botton */
+footer {
+    width: 100%;
+    background-color: #383838;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container {
+    width: 1050px;
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+}
+.rights-reserved {
+    margin-bottom: 20px;
+}
+.rights-reserved p a {
+    color: #777;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.developer p a {
+    color: #D7D7D7;
+    font-weight: 700;
+}
+.developer p a i{
+    color: #27af70;
+    font-size: 1.2rem;
+}
+
+
+
